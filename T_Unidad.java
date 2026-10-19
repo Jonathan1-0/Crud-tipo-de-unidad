@@ -130,6 +130,9 @@ public class T_Unidad extends JFrame implements ActionListener {
         if (e.getSource() == this.eliminar) {
             this.eliminar();
         }
+        if (e.getSource() == this.actualizar) {
+    this.actualizar();
+        }
 
     }
     
